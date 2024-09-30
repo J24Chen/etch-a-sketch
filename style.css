@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    width:800px;
+    height:800px;
+    border: 2px solid red;
+    align-items: stretch;
+}
+
+.inputs{ 
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+.row {
+    display:flex;
+    flex:1;
+
+}
+
+.box {
+    border: 1px solid black;
+    flex:1;
+} 
+

@@ -1,0 +1,37 @@
+
+
+So to create the 16x16 boxes, will need to adjust flexbox to incorperate 16 rows of boxes at once.
+Probably will ahve to adjust the grow/shrink rate. But research that to see how flexbox works to incorperate a set number
+of boxes first.
+
+
+Layout
+
+HTML/css contains:
+
+
+- grid
+- max width
+- max height
+
+
+JS contains
+- gridDimensions
+- 
+
+
+logic:
+
+let grid be a flex-direction:column
+
+Loop through JS, create a div and create 16 other divs that fit inside it.
+
+for (int i = 0; i < gridDimensions; i++){
+    createDiv == `row${i}`
+    append row div to grid div
+    for (int i = 0; i < gridDimensions; i++){
+        createDiv == `column ${i}`
+        append column div to row div
+}
+}
+
