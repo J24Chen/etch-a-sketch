@@ -2,4 +2,4 @@
 
 A game made through html css and js. A TOP project.
 
-[Live Preview] (https://j24chen.github.io/etch-a-sketch/) 👈
+[Live Preview](https://j24chen.github.io/etch-a-sketch/) 👈
